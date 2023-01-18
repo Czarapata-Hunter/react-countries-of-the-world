@@ -14,3 +14,8 @@
   bottom: 0;
   justify-items: center;
 }
+
+.words {
+  margin-left: 20px;
+  font-style: italic;
+}

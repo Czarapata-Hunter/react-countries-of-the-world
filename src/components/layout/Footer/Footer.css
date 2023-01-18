@@ -13,4 +13,11 @@
   border-top: 2px;
   border-top-style: solid;
   border-color: rgb(158, 143, 9);
+
+  position: fixed;
+}
+
+.words {
+  margin-right: 20px;
+  font-style: italic;
 }

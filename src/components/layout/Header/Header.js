@@ -4,7 +4,7 @@ import './Header.css';
 export default function Header() {
   return (
     <div className="header">
-      <p>Countries of the World</p>
+      <p className="words">Countries of the World</p>
     </div>
   );
 }
