@@ -7,7 +7,15 @@ import background from '../src/earthbackground.jpg';
 
 function App() {
   return (
-    <section className="main" style={{ background: `url(${background})` }}>
+    <section
+      className="main"
+      style={{
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+        background: `url(${background})`,
+        minHeight: '100vh',
+      }}
+    >
       <Header />
       <Main />
       <Footer />
