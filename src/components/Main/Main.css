@@ -1,6 +1,21 @@
 .main {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.data {
+  display: flex;
   flex-wrap: wrap;
   background-color: rgba(0, 0, 0, 0.479);
   /* height: 95.5vh; */
+}
+
+.drop-down {
+  background: rgb(158, 143, 9);
+}
+
+.loading {
+  font-weight: bold;
 }
