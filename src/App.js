@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import * as React from 'react';
 import './App.css';
+import Footer from './components/layout/Footer/Footer.js';
+import Header from './components/layout/Header/Header.js';
+import Main from './components/Main/Main.js';
+import background from '../src/earthbackground.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section
+      className="main"
+      style={{
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+        background: `url(${background})`,
+        minHeight: '100vh',
+      }}
+    >
+      <Header />
+      <Main />
+      <Footer />
+    </section>
   );
 }
-
 export default App;

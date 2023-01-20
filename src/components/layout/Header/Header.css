@@ -1,0 +1,22 @@
+.header {
+  color: rgb(158, 143, 9);
+  /* margin-left: 30px; */
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.699);
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-color: rgb(158, 143, 9);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  justify-items: center;
+}
+
+.words {
+  margin-left: 20px;
+  font-style: italic;
+}
+
